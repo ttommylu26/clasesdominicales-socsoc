@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -22,4 +23,18 @@ form{
     background-color: white;
     padding: 3mm;
     border-radius: 0.2cm;
+    text-align: center;
+}
+
+form input{
+    border: none;
+    background-color: rgb(230, 230, 230);
+    outline: none;
+    padding: 2mm;
+    margin: 2mm;
+    transition: all .1s;
+}
+
+form input:focus{
+    font-size: 20px;
 }
