@@ -36,6 +36,11 @@ form input{
     transition: all .1s;
 }
 
-form input:focus{
+form input[type="text"]:focus{
     font-size: 20px;
+}
+
+form input[type="submit"]:hover{
+    opacity: 70%;
+    cursor: pointer;
 }
